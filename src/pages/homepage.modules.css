@@ -1,0 +1,12 @@
+div{
+    /* border:2px solid green; */
+}
+
+span{
+    color:var(--primary);
+}
+
+img{
+    /* width:80%;
+    height:100%; */
+}

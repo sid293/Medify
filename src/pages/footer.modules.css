@@ -1,0 +1,57 @@
+
+.smallMobile {
+  margin-left: 13vw;
+  padding-top: 18vh;
+  z-index: 2;
+  width: 15vw;
+  height: 69%;
+}
+
+.sms {
+  left: 0px;
+  width: 93%;
+  top: -5px;
+}
+
+.smc {
+  position: relative;
+  width: 100%;
+  left: -1px;
+  bottom: 279px;
+}
+
+.largeMobile {
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+  padding-right: 0px;
+  width: 15vw;
+  z-index: 1;
+  margin-left: -7vw;
+  padding-top: 19vh;
+}
+
+.lms {
+  position:relative;
+  left: 0px;
+  width: 92%;
+  top: -24px;
+}
+
+.lmc {
+  position: relative;
+  width: 100%;
+  bottom: 324px;
+  left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

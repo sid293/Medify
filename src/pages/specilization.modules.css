@@ -1,0 +1,5 @@
+.wrapper{
+    background-color: var(--second);
+    color:red;
+    height:100vh;
+}
