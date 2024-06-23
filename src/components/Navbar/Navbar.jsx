@@ -4,9 +4,11 @@ import { useState } from 'react';
 // import { styled } from '@mui/material/styles';
 import './navbar.modules.css';
 import Box from '@mui/material/Box';
+import { useNavigate } from 'react-router-dom';
 import logo from './../../assets/logo.png';
 
 export default function Navbar(){
+    let navigate = useNavigate();
     let primary = window.getComputedStyle(document.documentElement).getPropertyValue('--primary');
     let [value, setValue] = useState('one');
 
@@ -14,6 +16,9 @@ export default function Navbar(){
         setValue(newValue);
     };
 
+    let handleNavigate = ()=>{
+        navigate('/MyBookings');
+    };
 
     return(
         <Box sx={{height:"96px", backgroundColor:"white", display:"flex", justifyContent:"center", alignItems:"center"}}>
@@ -32,7 +37,7 @@ export default function Navbar(){
                 <Tab value="four" label="Surgeries" sx={{textTransform:'none'}}></Tab>
                 <Tab value="five" label="Software for Providers" sx={{textTransform:'none'}}></Tab>
                 <Tab value="six" label="Facilities" sx={{textTransform:'none'}}></Tab>
-                <Button sx={{textTransform:'none', backgroundColor:primary, height:"40px", width:"130px", marginLeft:"20px"}} variant="contained">My Bookings</Button>
+                <Button onClick={handleNavigate} sx={{textTransform:'none', backgroundColor:primary, height:"40px", width:"130px", marginLeft:"20px"}} variant="contained">My Bookings</Button>
             </Tabs>
         </Box>
     )
