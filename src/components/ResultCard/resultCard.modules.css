@@ -1,0 +1,30 @@
+
+.swiper{
+    background-color: yellow;
+    width:90%;
+    height:55px;
+    padding-right: 55px;
+    padding-left: 50px;
+    text-align: center;
+}
+.swiper-button-next{
+    border:1px solid gray;
+    border-radius: 50px;
+    height:3rem;
+    width:3rem;
+    color:var(--primary);
+}
+
+
+.swiper-button-prev{
+    border:1px solid gray;
+    border-radius: 50px;
+    height:3rem;
+    width:3rem;
+    color:var(--primary);
+}
+
+.swiper-slide:hover{
+    /* background-color: gray; */
+    cursor:pointer;
+}

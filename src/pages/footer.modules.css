@@ -44,10 +44,42 @@
   left: 0px;
 }
 
+.prePhoneNumber{
+  padding:15px;
+  border-right: 1px solid gray;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5px 0px 0px 5px;
+  width: 49px;
+  height: 49px;
+}
 
+.phoneForm {
+  display: flex;
+}
 
+.css-17anonr-MuiTypography-root {
+  text-align: center;
+}
 
+.phoneForm > input:nth-child(2) {
+  padding-left: 15px;
+  border-radius: 0px 5px 5px 0px;
+}
 
+.arrow {
+  padding-bottom: 83px;
+}
+
+.iconsBox>img {
+  margin-right: 15px;
+}
 
 
 

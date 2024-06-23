@@ -4,6 +4,7 @@ import { useState } from 'react';
 // import { styled } from '@mui/material/styles';
 import './navbar.modules.css';
 import Box from '@mui/material/Box';
+import logo from './../../assets/logo.png';
 
 export default function Navbar(){
     let primary = window.getComputedStyle(document.documentElement).getPropertyValue('--primary');
@@ -16,6 +17,7 @@ export default function Navbar(){
 
     return(
         <Box sx={{height:"96px", backgroundColor:"white", display:"flex", justifyContent:"center", alignItems:"center"}}>
+            <img src={logo} alt="medify" />
             <Typography className="logo"
                 sx={{fontSize:"18px", fontWeight:"700", color:primary, marginLeft:"20px"}}
             >Medify</Typography>
